@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro</title>
+    <style>
+ 
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            position: relative; 
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .post {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .post h2 {
+            margin-top: 0;
+        }
+
+        .user-actions {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .user-actions button {
+            margin-right: 10px;
+            padding: 5px 10px;
+            border: none;
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Foro de Discusión NBA</h1>
+    </header>
+    <nav>
+        <a href="/">Inicio</a> |
+        <a href="/foro">Foros</a> |
+        <a href="https://github.com/MiguelAnthony0">Mi perfil</a>
+    </nav>
+    <section>
+        <article class="post">
+            <h2 href="/foro1">Stephen curry vs sabrina ionescu</h2>
+            <p>El reto entre las estrellas de la NBA y WNBA será el tercer evento del All Star Saturday Night después del concurso de triples y antes del concurso de mates.</p>
+        </article>
+        <article class="post">
+            <h2 href="/foro2" >Jordan o Lebron </h2>
+            <p>Por un lado, la leyenda de Chicago Bulls, con 6 anillos. En el otro lado, el vigente máximo anotador de la NBA. Conoce las estadísticas que ayudan a definir al mejor en la historia del baloncesto.</p>
+        </article>
+    </section>
+    <footer>
+        <p>Foro desarrollado por <a href="https://github.com/MiguelAnthony0">Miguel A</a>.</p>
+    </footer>
+
+    <div class="user-actions">
+        <button onclick="location.href='/registro'">Registrarse</button>
+        <button onclick="location.href='/iniciar'">Iniciar sesión</button>
+    </div>
+</body>
+</html>
+
